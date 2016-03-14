@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#download").click(function() {
     //https://developers.google.com/youtube/v3/getting-started#intro
-    var youtubeKey    = 'AIzaSyDKaBNcvRJVuBFKvyeUAAWssZjCCe9r4rA&maxResults'
+    var youtubeKey    = 
     // https://developer.spotify.com/web-api/console/get-playlist-tracks/#complete
     var tokenSpotify  = $("#spotifykey").val();
     var str           = $("#URL").val().split(":");
